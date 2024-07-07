@@ -14,6 +14,9 @@
 		859CB3922B9229210001B0A6 /* ExpenseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859CB3912B9229210001B0A6 /* ExpenseTrackerTests.swift */; };
 		859CB39C2B9229210001B0A6 /* ExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859CB39B2B9229210001B0A6 /* ExpenseTrackerUITests.swift */; };
 		859CB39E2B9229210001B0A6 /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859CB39D2B9229210001B0A6 /* ExpenseTrackerUITestsLaunchTests.swift */; };
+		859CB3AB2B92295E0001B0A6 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859CB3AA2B92295E0001B0A6 /* Transaction.swift */; };
+		859CB3AD2B9229AF0001B0A6 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859CB3AC2B9229AF0001B0A6 /* TransactionViewModel.swift */; };
+		859CB3AF2B92DE1E0001B0A6 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859CB3AE2B92DE1E0001B0A6 /* AddTransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		859CB3972B9229210001B0A6 /* ExpenseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		859CB39B2B9229210001B0A6 /* ExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITests.swift; sourceTree = "<group>"; };
 		859CB39D2B9229210001B0A6 /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		859CB3AA2B92295E0001B0A6 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		859CB3AC2B9229AF0001B0A6 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		859CB3AE2B92DE1E0001B0A6 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				859CB37F2B92291F0001B0A6 /* ExpenseTrackerApp.swift */,
+				859CB3AA2B92295E0001B0A6 /* Transaction.swift */,
 				859CB3812B92291F0001B0A6 /* ContentView.swift */,
 				859CB3832B9229210001B0A6 /* Assets.xcassets */,
 				859CB3852B9229210001B0A6 /* ExpenseTracker.entitlements */,
 				859CB3862B9229210001B0A6 /* Preview Content */,
+				859CB3AC2B9229AF0001B0A6 /* TransactionViewModel.swift */,
+				859CB3AE2B92DE1E0001B0A6 /* AddTransactionView.swift */,
 			);
 			path = ExpenseTracker;
 			sourceTree = "<group>";
@@ -261,6 +270,9 @@
 			files = (
 				859CB3822B92291F0001B0A6 /* ContentView.swift in Sources */,
 				859CB3802B92291F0001B0A6 /* ExpenseTrackerApp.swift in Sources */,
+				859CB3AB2B92295E0001B0A6 /* Transaction.swift in Sources */,
+				859CB3AD2B9229AF0001B0A6 /* TransactionViewModel.swift in Sources */,
+				859CB3AF2B92DE1E0001B0A6 /* AddTransactionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
